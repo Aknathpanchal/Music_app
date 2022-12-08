@@ -1,0 +1,7 @@
+
+.home-container{
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+}

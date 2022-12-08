@@ -1,0 +1,118 @@
+.footer-player {
+  width: 60%;
+  align-items: center;
+}
+.footer-player .playback {
+  position: absolute;
+  top: -14px;
+  z-index: 99999999;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-player .playback .playback-completed {
+  width: 100%;
+}
+.footer-player .playback .MuiSlider-thumb {
+  box-shadow: none !important;
+}
+
+.curr-music-container {
+  justify-content: flex-start !important;
+  flex-grow: 1;
+  height: 100%;
+}
+.curr-music-container .curr-music-cover {
+  padding-left: 10px;
+}
+.curr-music-container .curr-music-details {
+  text-align: left;
+  padding-left: 20px;
+}
+.curr-music-container .curr-music-details p:nth-child(1) {
+  font-weight: bolder;
+}
+.curr-music-container .curr-music-details p:nth-child(2) {
+  color: gray;
+  font-weight: lighter;
+}
+
+.playback-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-basis: 40%;
+}
+.playback-controls div {
+  padding-right: 10px;
+}
+
+.playback-widgets {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 30%;
+  height: 100%;
+}
+.playback-widgets .timer {
+  padding-right: 10px;
+}
+.playback-widgets .slider {
+  width: 100px;
+  margin: 0 20px;
+}
+.playback-widgets .volume {
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 970px) {
+  .footer-player .playback-controls {
+    justify-content: flex-end;
+    flex-grow: 0;
+    padding: 0 20px;
+  }
+  .footer-player .playback-widgets {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer-player .curr-music-details {
+    display: none;
+  }
+}
+/*
+.MuiBottomNavigationAction-root.Mui-selected,.MuiSlider-root{
+  color: #1abc9c !important;
+}*/
+.s_name {
+  width: 184px;
+  height: 36px;
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.a_name {
+  width: 65px;
+  height: 24px;
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.img_container {
+  width: 480px;
+  height: 480px;
+  border-radius: 8px;
+}/*# sourceMappingURL=FooterPlayer.css.map */
