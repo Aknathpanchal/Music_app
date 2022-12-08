@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 // import Sidebar from './Components/Sidebar';
 import Player from './Components/Player';

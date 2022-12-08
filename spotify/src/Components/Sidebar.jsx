@@ -30,24 +30,3 @@ export default Sidebar;
 
 
 
-// import "../assets/scss/SideBar.scss";
-// import SideBarOptions from "./SideBarOptions";
-
-// function SideBar() {
-//     return (
-//         <aside className={"aside-bar"}>
-//             <div className="aside-bar-container">
-//                 <SideBarOptions className={"lib-sub"} href={"/"} title={"For You"} />
-//                 <SideBarOptions className={"lib-sub"} href={"/top_tracks"}  title={"Top Tracks"}/>
-//                 <SideBarOptions className={"lib-sub"} href={"/favourites"}  title={"Favourites"}/>
-//                 <SideBarOptions className={"lib-sub"} href={"/recently_played"} title={"Recently Played"} />
-//             </div>
-//             <div className="aside-bar-container playlist">
-
-//              </div>
-//         </aside>
-//     );
-// }
-
-
-// export default SideBar;
