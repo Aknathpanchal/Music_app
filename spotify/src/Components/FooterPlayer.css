@@ -124,7 +124,8 @@ margin: auto;
 }
 
 .img_container {
-  width: 480px;
+  width: 80%;
+  margin: auto;
   height: 480px;
   border-radius: 8px;
 }
@@ -138,7 +139,8 @@ margin: auto;
 
 
   .img_container {
-    width: 400px;
+    width: 80%;
+    margin: auto;
     height: 400px;
     border-radius: 8px;
   }
