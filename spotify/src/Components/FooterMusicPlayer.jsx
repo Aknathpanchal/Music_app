@@ -110,25 +110,16 @@ function FooterMusicPlayer({music}) {
         }
     },[dispatch, id, isNextClicked, isPrevClicked, playlists]);
 
-
-    // function formatTime(secs) {
-    //     const t = new Date(1970, 0, 1);
-    //     t.setSeconds(secs);
-    //     let s = t.toTimeString().substr(0, 8);
-    //     if (secs > 86399)
-    //         s = Math.floor((t - Date.parse("1/1/70")) / 3600000) + s.substr(2);
-    //     return s.substring(3);
-    // }
     return (
-        <div className={"footer-player"} style={{margin:"auto"}}>
+        <div className={"footer-player"}>
             <div className="curr-music-details">
                     <h1 className="s_name">{name}</h1>
                     <p className="a_name">{author_name}</p>
                 </div>
                 <br/>
-            <div className="img_container">
+            <center className="img_container">
                         <img src={require("./assets/img/" + img)} alt={name} style={{width:"100%"}}/>
-            </div>
+            </center>
 
             <div className="side_playback">
                 {

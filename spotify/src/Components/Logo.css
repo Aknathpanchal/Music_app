@@ -1,0 +1,26 @@
+/* .sidebar__logo {
+    margin: auto;
+    object-fit: contain;
+    height: 50px;
+    padding: 10px;
+  } */
+
+  @media (max-width: 500px){
+
+    .sidebar__logo {
+       
+        object-fit: contain;
+        height: 50px;
+        padding: 10px;
+      }
+  }
+
+  @media (min-width: 500px){
+
+    .sidebar__logo {
+       margin: auto;
+        object-fit: contain;
+        height: 50px;
+        padding: 10px;
+      }
+  }

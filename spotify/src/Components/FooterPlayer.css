@@ -1,6 +1,8 @@
 .footer-player {
-  width: 60%;
+  width: 480px;
   align-items: center;
+margin: auto;
+/* border: 2px solid white; */
 }
 .footer-player .playback {
   position: absolute;
@@ -45,6 +47,11 @@
   align-items: center;
   flex-basis: 40%;
 }
+
+
+
+
+
 .playback-controls div {
   padding-right: 10px;
 }
@@ -68,27 +75,33 @@
   padding-right: 10px;
 }
 
-@media only screen and (max-width: 970px) {
+@media (min-width:500px) and (max-width: 970px) {
   .footer-player .playback-controls {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     flex-grow: 0;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
   .footer-player .playback-widgets {
     display: none;
   }
 }
 @media only screen and (max-width: 500px) {
-  .footer-player .curr-music-details {
-    display: none;
+  .playback-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-basis: 40%;
+  }
+  
+  .playback-controls div {
+    padding-right: 0px;
   }
 }
-/*
-.MuiBottomNavigationAction-root.Mui-selected,.MuiSlider-root{
-  color: #1abc9c !important;
-}*/
+
 .s_name {
-  width: 184px;
+  width: 100%;
   height: 36px;
   font-family: "Basier Circle";
   font-style: normal;
@@ -99,14 +112,13 @@
 }
 
 .a_name {
-  width: 65px;
+  width: 100%;
   height: 24px;
   font-family: "Basier Circle";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   color: #FFFFFF;
   opacity: 0.6;
 }
@@ -115,4 +127,35 @@
   width: 480px;
   height: 480px;
   border-radius: 8px;
-}/*# sourceMappingURL=FooterPlayer.css.map */
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .footer-player {
+    width: 400px;
+    align-items: center;
+  margin-top: 50px;
+  }
+
+
+  .img_container {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  .footer-player {
+    width: 400px;
+    align-items: center;
+  margin-top: 50px;
+  }
+
+
+  .img_container {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    border-radius: 8px;
+  }
+}

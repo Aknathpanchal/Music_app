@@ -9,9 +9,7 @@
     gap: 34px;
     width: 95%;
     height: 50px;
-    /* background: rgba(255, 255, 255, 0.08); */
     border-radius: 8px;
-    /* Inside auto layout */
     flex: none;
     order: 5;
     flex-grow: 0;
@@ -55,8 +53,8 @@
   
   @media only screen and (max-width: 545px) {
     .music-card .music-card-cover img {
-      width: 150px;
-      height: 150px;
+      width: 50px;
+      height: 50px;
     }
   }
 

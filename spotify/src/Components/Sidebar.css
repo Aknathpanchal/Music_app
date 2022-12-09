@@ -11,23 +11,16 @@
   gap: 20%;
 }
 
-/* .sidebar__title {
-  margin-left: 10px;
-  padding: 5px;
-  font-size: 12px;
-} */
-
-.sidebar__logo {
-  margin-right: auto;
-  object-fit: contain;
-  height: 70px;
-  padding: 10px;
+.header__bottom {
+  margin-top: 99%;
+  align-items: bottom;
+  margin-left: 10%;
+}
+.header__bottom > img {
+width: 50px;
+border-radius: 50%;
 }
 
-
-
-.header__bottom{
-margin-top: 99%;
-align-items: bottom;
-margin-left: 10%;
-}
+.header__bottom > img:hover {
+  border: 3px solid rgb(93, 185, 227);
+  }
