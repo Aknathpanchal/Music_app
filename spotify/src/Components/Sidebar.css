@@ -17,10 +17,10 @@
   margin-left: 10%;
 }
 .header__bottom > img {
-width: 50px;
-border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .header__bottom > img:hover {
   border: 3px solid rgb(93, 185, 227);
-  }
+}

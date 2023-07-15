@@ -8,12 +8,12 @@ function Body() {
 
   return (
     <>
-    <div className="body body__songs">
-      <h2>For you</h2>
-      {playlists.map((item) => (
-        <MusicCard key={item.id} music={item} />
-      ))}
-    </div>
+      <div className="body body__songs">
+        <h2>For you</h2>
+        {playlists.map((item) => (
+          <MusicCard key={item.id} music={item} />
+        ))}
+      </div>
     </>
   );
 }

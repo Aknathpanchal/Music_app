@@ -35,17 +35,17 @@ function Player() {
     <div className={"home-container"}>
       <div>
         <div>
-           <Logo/>
-           <Pop/>
+          <Logo />
+          <Pop />
         </div>
-        <Sidebar/>
+        <Sidebar />
       </div>
       <div>
         <Header />
         <Body />
       </div>
       <div>
-      <Pop/>
+        <Pop />
         {currMusic ? (
           <FooterMusicPlayer music={currMusic} />
         ) : (

@@ -29,9 +29,10 @@ function MusicCard(props) {
   }, []);
 
   return (
-    <div className={"music-card songRow"}
-    onMouseOver={handleResponse}
-    onClick={handlePlay}
+    <div
+      className={"music-card songRow"}
+      onMouseOver={handleResponse}
+      onClick={handlePlay}
     >
       {!loaded ? (
         <div className={"Skeleton-top"}>
@@ -48,16 +49,18 @@ function MusicCard(props) {
             className={"music-card-cover "}
             // onMouseOver={handleResponse}
           >
-            <img className="songRow__album" src={require("./assets/img/" + img)} alt={name} />
+            <img
+              className="songRow__album"
+              src={require("./assets/img/" + img)}
+              alt={name}
+            />
             <div className="play-circle">
               <PlayCircleFilledWhiteIcon />
             </div>
           </div>
           <div className="songRow__info">
             <h1>{name}</h1>
-            <p>
-              {author_name}
-            </p>
+            <p>{author_name}</p>
           </div>
         </>
       )}

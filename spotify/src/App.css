@@ -1,15 +1,11 @@
-.App{
-    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-    background-color: rgb(48, 46, 56);
+.App {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(48, 46, 56);
 }
 
-
-
-
 @media (min-width: 300px) and (max-width: 500px) {
-   .App{
+  .App {
     justify-content: center;
     margin: auto;
-   }
   }
-  
+}
